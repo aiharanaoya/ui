@@ -1,0 +1,46 @@
+.badge {
+	display: inline-flex;
+	align-items: center;
+	padding: 3px 10px;
+	border-radius: var(--radius-full);
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+}
+
+.blue {
+	background: var(--color-blue-50);
+	color: var(--color-blue-500);
+}
+.red {
+	background: var(--color-red-100);
+	color: var(--color-red-600);
+}
+.green {
+	background: var(--color-green-50);
+	color: var(--color-success);
+}
+.yellow {
+	background: var(--color-yellow-50);
+	color: var(--color-yellow-600);
+}
+.gray {
+	background: var(--color-gray-100);
+	color: var(--color-gray-600);
+}
+.gold {
+	background: var(--color-gold-400);
+	color: var(--color-gold-900);
+}
+.solidBlue {
+	background: var(--color-blue-500);
+	color: var(--color-white);
+}
+.solidRed {
+	background: var(--color-red-500);
+	color: var(--color-white);
+}
+.dark {
+	background: var(--color-blue-900);
+	color: var(--color-white);
+}
