@@ -45,7 +45,7 @@
 		"storybook": "10.3.5",
 		"tsdown": "0.21.9",
 		"typescript": "6.0.3",
-		"vitest": "4.1.4"
+		"vitest": "4.1.5"
 	},
 	"publishConfig": {
 		"registry": "https://npm.pkg.github.com"
