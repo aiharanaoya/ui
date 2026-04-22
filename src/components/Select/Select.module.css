@@ -10,9 +10,22 @@
 	color: var(--color-gray-700);
 }
 
+.selectWrapper {
+	position: relative;
+}
+
+.chevron {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: var(--color-gray-400);
+	pointer-events: none;
+}
+
 .input {
 	width: 100%;
-	padding: 9px 12px;
+	padding: 9px 36px 9px 12px;
 	border-radius: var(--radius-md);
 	border: 1.5px solid var(--color-gray-300);
 	font-size: 14px;
