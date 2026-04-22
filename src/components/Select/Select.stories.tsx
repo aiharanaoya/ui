@@ -1,13 +1,18 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
 import { Select } from './Select';
 
+const options = (
+	<>
+		<option value="">選択してください</option>
+		<option value="dodgers">Los Angeles Dodgers</option>
+		<option value="yankees">New York Yankees</option>
+		<option value="cubs">Chicago Cubs</option>
+	</>
+);
+
 const meta = {
 	component: Select,
-	args: {
-		id: 'team',
-		label: 'チーム',
-		children: undefined,
-	},
+	args: { id: 'team', label: 'チーム', children: options },
 } satisfies Meta<typeof Select>;
 
 export default meta;
