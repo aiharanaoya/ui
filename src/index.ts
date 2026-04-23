@@ -8,6 +8,7 @@ export { Input } from './components/Input';
 export { ListItem } from './components/ListItem';
 export { Select } from './components/Select';
 export { StatCard } from './components/StatCard';
+export { Tab, Tabs } from './components/Tabs';
 export { Tag } from './components/Tag';
 
 export * from './tokens';
