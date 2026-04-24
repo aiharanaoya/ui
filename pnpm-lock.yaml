@@ -27,8 +27,8 @@ importers:
         specifier: 14.6.1
         version: 14.6.1(@testing-library/dom@10.4.1)
       '@tsdown/css':
-        specifier: 0.21.9
-        version: 0.21.9(postcss@8.5.10)(tsdown@0.21.10)
+        specifier: 0.21.10
+        version: 0.21.10(postcss@8.5.10)(tsdown@0.21.10)
       '@types/react':
         specifier: 19.2.14
         version: 19.2.14
@@ -49,7 +49,7 @@ importers:
         version: 10.3.5(@testing-library/dom@10.4.1)(prettier@2.8.8)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       tsdown:
         specifier: 0.21.10
-        version: 0.21.10(@tsdown/css@0.21.9)(typescript@6.0.3)
+        version: 0.21.10(@tsdown/css@0.21.10)(typescript@6.0.3)
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -800,8 +800,8 @@ packages:
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
 
-  '@tsdown/css@0.21.9':
-    resolution: {integrity: sha512-ZuSHdio/H9V3+LvHQ9HssC7vKNwqetG6NEyuUME5uCi1VsoGnYJKLQ+CZl4AMT87kSP+N6mF0egzdWtV34e3Pw==}
+  '@tsdown/css@0.21.10':
+    resolution: {integrity: sha512-JCq5KKx2WymgJiKYB7QIJLh8JjVyD3ncIr1xdX4sxh3XsSN+jVAKpp3X53bhaGNsPnaZmu3j/TLIl9F9sBJPiQ==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
       postcss: ^8.4.0
@@ -809,7 +809,7 @@ packages:
       postcss-modules: ^6.0.0
       sass: '*'
       sass-embedded: '*'
-      tsdown: 0.21.9
+      tsdown: 0.21.10
     peerDependenciesMeta:
       postcss:
         optional: true
@@ -2680,12 +2680,12 @@ snapshots:
     dependencies:
       '@testing-library/dom': 10.4.1
 
-  '@tsdown/css@0.21.9(postcss@8.5.10)(tsdown@0.21.10)':
+  '@tsdown/css@0.21.10(postcss@8.5.10)(tsdown@0.21.10)':
     dependencies:
       lightningcss: 1.32.0
       postcss-load-config: 6.0.1(postcss@8.5.10)
-      rolldown: 1.0.0-rc.16
-      tsdown: 0.21.10(@tsdown/css@0.21.9)(typescript@6.0.3)
+      rolldown: 1.0.0-rc.17
+      tsdown: 0.21.10(@tsdown/css@0.21.10)(typescript@6.0.3)
     optionalDependencies:
       postcss: 8.5.10
     transitivePeerDependencies:
@@ -3573,7 +3573,7 @@ snapshots:
       minimist: 1.2.8
       strip-bom: 3.0.0
 
-  tsdown@0.21.10(@tsdown/css@0.21.9)(typescript@6.0.3):
+  tsdown@0.21.10(@tsdown/css@0.21.10)(typescript@6.0.3):
     dependencies:
       ansis: 4.2.0
       cac: 7.0.0
@@ -3592,7 +3592,7 @@ snapshots:
       unconfig-core: 7.5.0
       unrun: 0.2.37
     optionalDependencies:
-      '@tsdown/css': 0.21.9(postcss@8.5.10)(tsdown@0.21.10)
+      '@tsdown/css': 0.21.10(postcss@8.5.10)(tsdown@0.21.10)
       typescript: 6.0.3
     transitivePeerDependencies:
       - '@ts-macro/tsc'
