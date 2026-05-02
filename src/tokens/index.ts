@@ -89,3 +89,44 @@ export const ease = {
 	decel: 'cubic-bezier(0.0, 0.0, 0.2, 1)',
 	accel: 'cubic-bezier(0.4, 0.0, 1, 1)',
 } as const;
+
+export const typography = {
+	fontFamily: {
+		display: "'Barlow Condensed', 'Arial Narrow', sans-serif",
+		sans: "'Plus Jakarta Sans', system-ui, sans-serif",
+		body: "'Plus Jakarta Sans', system-ui, -apple-system, sans-serif",
+		mono: "'JetBrains Mono', 'Fira Code', monospace",
+	},
+	fontSize: {
+		xs: '11px',
+		sm: '13px',
+		base: '15px',
+		md: '16px',
+		lg: '18px',
+		xl: '20px',
+		'2xl': '24px',
+		'3xl': '30px',
+		'4xl': '36px',
+		'5xl': '48px',
+	},
+	fontWeight: {
+		regular: 400,
+		medium: 500,
+		semibold: 600,
+		bold: 700,
+		extrabold: 800,
+		black: 900,
+	},
+	lineHeight: {
+		tight: 1.15,
+		snug: 1.3,
+		normal: 1.5,
+		relaxed: 1.65,
+	},
+	letterSpacing: {
+		tight: '-0.02em',
+		normal: '0em',
+		wide: '0.04em',
+		widest: '0.12em',
+	},
+} as const;
