@@ -14,6 +14,7 @@ export { Input } from './components/Input';
 export { ListItem } from './components/ListItem';
 export { Modal } from './components/Modal';
 export { Nav, NavItem } from './components/Nav';
+export { Pagination } from './components/Pagination';
 export { ProgressBar } from './components/ProgressBar';
 export { Radio } from './components/Radio';
 export { SegmentedControl } from './components/SegmentedControl';
