@@ -15,5 +15,6 @@ export { Spinner } from './components/Spinner';
 export { StatCard } from './components/StatCard';
 export { Tab, Tabs } from './components/Tabs';
 export { Tag } from './components/Tag';
+export { Toggle } from './components/Toggle';
 
 export * from './tokens';
