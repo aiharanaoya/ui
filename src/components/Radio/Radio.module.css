@@ -1,0 +1,77 @@
+.field {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-1);
+}
+
+.row {
+	display: inline-flex;
+	align-items: center;
+	gap: var(--space-2);
+	cursor: pointer;
+	user-select: none;
+}
+
+.row.disabled {
+	cursor: not-allowed;
+	opacity: 0.5;
+}
+
+.input {
+	appearance: none;
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	border: 1.5px solid var(--color-gray-300);
+	background: var(--color-white);
+	cursor: pointer;
+	flex-shrink: 0;
+	position: relative;
+	transition:
+		border-color var(--duration-fast) var(--ease-standard),
+		background var(--duration-fast) var(--ease-standard);
+}
+
+.input:focus-visible {
+	outline: none;
+	box-shadow: 0 0 0 3px rgba(0, 90, 156, 0.2);
+}
+
+.input:checked {
+	border-color: var(--color-blue-500);
+}
+
+.input:checked::after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: var(--color-blue-500);
+}
+
+.input:disabled {
+	cursor: not-allowed;
+	background: var(--color-gray-100);
+	border-color: var(--color-gray-300);
+}
+
+.input.inputError {
+	border-color: var(--color-red-500);
+}
+
+.label {
+	font-size: var(--text-sm);
+	color: var(--color-gray-800);
+	font-family: var(--font-body);
+	line-height: var(--leading-normal);
+}
+
+.errorMessage {
+	font-size: 11px;
+	font-weight: 500;
+	color: var(--color-red-500);
+}
