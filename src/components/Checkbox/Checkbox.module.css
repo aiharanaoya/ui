@@ -47,26 +47,27 @@
 .input:checked::after {
 	content: '';
 	position: absolute;
-	left: 4px;
-	top: 1.5px;
-	width: 6px;
-	height: 10px;
+	left: 50%;
+	top: 43%;
+	width: 5px;
+	height: 9px;
 	border: 2px solid var(--color-white);
 	border-top: none;
 	border-left: none;
-	transform: rotate(45deg);
+	transform: translate(-50%, -50%) rotate(45deg);
 }
 
 /* Indeterminate dash */
 .input:indeterminate::after {
 	content: '';
 	position: absolute;
-	left: 3px;
-	top: 6px;
+	left: 50%;
+	top: 50%;
 	width: 9px;
 	height: 2px;
 	background: var(--color-white);
 	border-radius: 1px;
+	transform: translate(-50%, -50%);
 }
 
 .input:disabled {
