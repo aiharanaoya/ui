@@ -1,6 +1,7 @@
 import './tokens/tokens.css';
 
 export { Alert } from './components/Alert';
+export { Avatar, AvatarGroup } from './components/Avatar';
 export { Badge } from './components/Badge';
 export { Breadcrumb } from './components/Breadcrumb';
 export { Button } from './components/Button';
