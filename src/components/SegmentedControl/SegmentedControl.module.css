@@ -1,0 +1,38 @@
+.track {
+	display: inline-flex;
+	background: var(--color-gray-100);
+	border-radius: var(--radius-md);
+	padding: 3px;
+	gap: 2px;
+	border: none;
+	margin: 0;
+	min-width: 0;
+}
+
+.segment {
+	padding: 6px 14px;
+	border-radius: var(--radius-sm);
+	border: none;
+	background: transparent;
+	font-size: 12px;
+	font-weight: 500;
+	font-family: var(--font-sans);
+	color: var(--color-gray-600);
+	cursor: pointer;
+	transition:
+		background var(--duration-fast) var(--ease-standard),
+		color var(--duration-fast) var(--ease-standard),
+		box-shadow var(--duration-fast) var(--ease-standard);
+	white-space: nowrap;
+}
+
+.segment:hover:not(.active) {
+	color: var(--color-gray-800);
+}
+
+.active {
+	background: var(--color-white);
+	color: var(--color-blue-500);
+	font-weight: 600;
+	box-shadow: var(--shadow-sm);
+}

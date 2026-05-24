@@ -11,6 +11,7 @@ export { Input } from './components/Input';
 export { ListItem } from './components/ListItem';
 export { Nav, NavItem } from './components/Nav';
 export { Radio } from './components/Radio';
+export { SegmentedControl } from './components/SegmentedControl';
 export { Select } from './components/Select';
 export { Spinner } from './components/Spinner';
 export { StatCard } from './components/StatCard';
