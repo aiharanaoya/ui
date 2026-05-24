@@ -1,0 +1,52 @@
+.chip {
+	display: inline-flex;
+	align-items: center;
+	padding: 5px 12px;
+	border-radius: var(--radius-full);
+	font-size: 12px;
+	font-weight: 500;
+	font-family: var(--font-sans);
+	border: 1.5px solid var(--color-gray-300);
+	background: var(--color-white);
+	color: var(--color-gray-600);
+	cursor: pointer;
+	transition:
+		background var(--duration-fast) var(--ease-standard),
+		border-color var(--duration-fast) var(--ease-standard),
+		color var(--duration-fast) var(--ease-standard);
+	white-space: nowrap;
+}
+
+.chip:hover:not(:disabled) {
+	border-color: var(--color-gray-400);
+	color: var(--color-gray-800);
+}
+
+.chip:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.selectedBlue {
+	background: var(--color-blue-500);
+	border-color: var(--color-blue-500);
+	color: var(--color-white);
+}
+
+.selectedBlue:hover:not(:disabled) {
+	background: var(--color-blue-600);
+	border-color: var(--color-blue-600);
+	color: var(--color-white);
+}
+
+.selectedRed {
+	background: var(--color-red-500);
+	border-color: var(--color-red-500);
+	color: var(--color-white);
+}
+
+.selectedRed:hover:not(:disabled) {
+	background: var(--color-red-600);
+	border-color: var(--color-red-600);
+	color: var(--color-white);
+}

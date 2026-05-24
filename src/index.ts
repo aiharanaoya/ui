@@ -6,6 +6,7 @@ export { Breadcrumb } from './components/Breadcrumb';
 export { Button } from './components/Button';
 export { Card } from './components/Card';
 export { Checkbox } from './components/Checkbox';
+export { Chip } from './components/Chip';
 export { EmptyState } from './components/EmptyState';
 export { HeroCard } from './components/HeroCard';
 export { Input } from './components/Input';
