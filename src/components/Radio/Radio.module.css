@@ -27,6 +27,8 @@
 	cursor: pointer;
 	flex-shrink: 0;
 	position: relative;
+	align-self: center;
+	margin: 0;
 	transition:
 		border-color var(--duration-fast) var(--ease-standard),
 		background var(--duration-fast) var(--ease-standard);
