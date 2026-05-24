@@ -18,5 +18,6 @@ export { Steps } from './components/Steps';
 export { Tab, Tabs } from './components/Tabs';
 export { Tag } from './components/Tag';
 export { Toggle } from './components/Toggle';
+export { Tooltip } from './components/Tooltip';
 
 export * from './tokens';
