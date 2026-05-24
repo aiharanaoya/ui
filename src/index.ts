@@ -13,6 +13,7 @@ export { ListItem } from './components/ListItem';
 export { Nav, NavItem } from './components/Nav';
 export { ProgressBar } from './components/ProgressBar';
 export { Radio } from './components/Radio';
+export { SegmentedControl } from './components/SegmentedControl';
 export { Select } from './components/Select';
 export { Skeleton } from './components/Skeleton';
 export { Spinner } from './components/Spinner';
