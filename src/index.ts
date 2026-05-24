@@ -10,6 +10,7 @@ export { HeroCard } from './components/HeroCard';
 export { Input } from './components/Input';
 export { ListItem } from './components/ListItem';
 export { Nav, NavItem } from './components/Nav';
+export { ProgressBar } from './components/ProgressBar';
 export { Radio } from './components/Radio';
 export { Select } from './components/Select';
 export { Spinner } from './components/Spinner';
