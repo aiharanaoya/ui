@@ -1,5 +1,11 @@
 # @aiharanaoya/ui
 
+## 0.2.0
+
+### Minor Changes
+
+- c9dedef: Avatar・Checkbox・Chip・EmptyState・Modal・Pagination・ProgressBar・Radio・SegmentedControl・Skeleton・Spinner・Steps・Table・Toggle・Tooltip コンポーネントを追加
+
 ## 0.1.0
 
 ### Minor Changes
