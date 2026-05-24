@@ -1,6 +1,7 @@
 import './tokens/tokens.css';
 
 export { Badge } from './components/Badge';
+export { Breadcrumb } from './components/Breadcrumb';
 export { Button } from './components/Button';
 export { Card } from './components/Card';
 export { HeroCard } from './components/HeroCard';
