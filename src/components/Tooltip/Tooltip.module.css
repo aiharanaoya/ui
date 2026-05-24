@@ -1,0 +1,76 @@
+.wrap {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+}
+
+.tooltip {
+	position: absolute;
+	background: var(--color-blue-900);
+	color: var(--color-white);
+	font-family: var(--font-body);
+	font-size: 12px;
+	line-height: var(--leading-snug);
+	padding: 7px 11px;
+	border-radius: var(--radius-sm);
+	white-space: nowrap;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity var(--duration-fast) var(--ease-standard);
+	z-index: 10;
+}
+
+.wrap:hover .tooltip,
+.wrap:focus-within .tooltip {
+	opacity: 1;
+}
+
+/* Arrow shared */
+.tooltip::after {
+	content: '';
+	position: absolute;
+	border: 5px solid transparent;
+}
+
+/* Top */
+.top {
+	bottom: calc(100% + 8px);
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.top::after {
+	top: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	border-top-color: var(--color-blue-900);
+}
+
+/* Right */
+.right {
+	left: calc(100% + 8px);
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.right::after {
+	right: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	border-right-color: var(--color-blue-900);
+}
+
+/* Bottom */
+.bottom {
+	top: calc(100% + 8px);
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.bottom::after {
+	bottom: 100%;
+	left: 50%;
+	transform: translateX(-50%);
+	border-bottom-color: var(--color-blue-900);
+}
