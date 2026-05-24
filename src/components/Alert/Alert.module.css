@@ -1,0 +1,117 @@
+.alert {
+	display: flex;
+	align-items: flex-start;
+	gap: var(--space-3);
+	padding: 13px var(--space-4);
+	border-radius: var(--radius-md);
+	border-left: 4px solid transparent;
+	font-family: var(--font-body);
+}
+
+.icon {
+	flex-shrink: 0;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 10px;
+	font-weight: 700;
+	margin-top: 1px;
+}
+
+.content {
+	flex: 1;
+	min-width: 0;
+}
+
+.title {
+	font-size: var(--text-sm);
+	font-weight: 600;
+	line-height: var(--leading-snug);
+}
+
+.body {
+	font-size: var(--text-sm);
+	line-height: var(--leading-normal);
+	margin-top: 2px;
+}
+
+.close {
+	flex-shrink: 0;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	font-size: 12px;
+	padding: 2px 4px;
+	border-radius: var(--radius-sm);
+	line-height: 1;
+	transition: opacity var(--duration-fast) var(--ease-standard);
+	opacity: 0.6;
+}
+
+.close:hover {
+	opacity: 1;
+}
+
+/* Variants */
+.info {
+	background: var(--color-blue-50);
+	border-left-color: var(--color-blue-500);
+	color: var(--color-gray-900);
+}
+
+.info .icon {
+	background: var(--color-blue-500);
+	color: var(--color-white);
+}
+
+.success {
+	background: var(--color-green-50);
+	border-left-color: var(--color-success);
+	color: var(--color-gray-900);
+}
+
+.success .icon {
+	background: var(--color-success);
+	color: var(--color-white);
+}
+
+.warning {
+	background: var(--color-yellow-50);
+	border-left-color: var(--color-warning);
+	color: var(--color-gray-900);
+}
+
+.warning .icon {
+	background: var(--color-warning);
+	color: var(--color-white);
+}
+
+.error {
+	background: var(--color-red-100);
+	border-left-color: var(--color-red-500);
+	color: var(--color-gray-900);
+}
+
+.error .icon {
+	background: var(--color-red-500);
+	color: var(--color-white);
+}
+
+.toast {
+	background: var(--color-gray-800);
+	border-left-color: var(--color-gray-600);
+	color: var(--color-gray-50);
+	box-shadow: var(--shadow-xl);
+}
+
+.toast .icon {
+	background: var(--color-gray-600);
+	color: var(--color-gray-50);
+}
+
+.toast .close {
+	color: var(--color-gray-50);
+}
