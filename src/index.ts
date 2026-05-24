@@ -11,6 +11,7 @@ export { EmptyState } from './components/EmptyState';
 export { HeroCard } from './components/HeroCard';
 export { Input } from './components/Input';
 export { ListItem } from './components/ListItem';
+export { Modal } from './components/Modal';
 export { Nav, NavItem } from './components/Nav';
 export { ProgressBar } from './components/ProgressBar';
 export { Radio } from './components/Radio';
