@@ -3,6 +3,7 @@ import './tokens/tokens.css';
 export { Badge } from './components/Badge';
 export { Button } from './components/Button';
 export { Card } from './components/Card';
+export { EmptyState } from './components/EmptyState';
 export { HeroCard } from './components/HeroCard';
 export { Input } from './components/Input';
 export { ListItem } from './components/ListItem';
