@@ -14,6 +14,7 @@ export { Radio } from './components/Radio';
 export { Select } from './components/Select';
 export { Spinner } from './components/Spinner';
 export { StatCard } from './components/StatCard';
+export { Steps } from './components/Steps';
 export { Tab, Tabs } from './components/Tabs';
 export { Tag } from './components/Tag';
 export { Toggle } from './components/Toggle';

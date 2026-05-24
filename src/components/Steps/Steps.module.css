@@ -1,0 +1,102 @@
+.list {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.item {
+	display: flex;
+	align-items: center;
+	flex: 1;
+}
+
+.item:last-child {
+	flex: 0;
+}
+
+.stepWrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 4px;
+	flex-shrink: 0;
+}
+
+.circle {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+	font-weight: 600;
+	font-family: var(--font-sans);
+	transition:
+		background var(--duration-normal) var(--ease-standard),
+		color var(--duration-normal) var(--ease-standard);
+}
+
+.label {
+	font-size: 11px;
+	font-weight: 600;
+	font-family: var(--font-sans);
+	text-align: center;
+	white-space: nowrap;
+	transition: color var(--duration-normal) var(--ease-standard);
+}
+
+.line {
+	flex: 1;
+	height: 2px;
+	margin: 0 4px;
+	margin-top: -18px;
+	transition: background var(--duration-normal) var(--ease-standard);
+}
+
+/* Done */
+.done .circle {
+	background: var(--color-blue-500);
+	color: var(--color-white);
+}
+
+.done .label {
+	color: var(--color-blue-500);
+}
+
+.done .line {
+	background: var(--color-blue-500);
+}
+
+/* Active */
+.active .circle {
+	background: var(--color-white);
+	color: var(--color-blue-500);
+	border: 2px solid var(--color-blue-500);
+	box-shadow: 0 0 0 3px rgba(0, 90, 156, 0.15);
+}
+
+.active .label {
+	color: var(--color-blue-500);
+}
+
+.active .line {
+	background: var(--color-gray-200);
+}
+
+/* Todo */
+.todo .circle {
+	background: var(--color-gray-100);
+	color: var(--color-gray-400);
+	border: 2px solid var(--color-gray-200);
+}
+
+.todo .label {
+	color: var(--color-gray-400);
+}
+
+.todo .line {
+	background: var(--color-gray-200);
+}
