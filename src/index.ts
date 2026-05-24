@@ -7,6 +7,7 @@ export { HeroCard } from './components/HeroCard';
 export { Input } from './components/Input';
 export { ListItem } from './components/ListItem';
 export { Nav, NavItem } from './components/Nav';
+export { Radio } from './components/Radio';
 export { Select } from './components/Select';
 export { StatCard } from './components/StatCard';
 export { Tab, Tabs } from './components/Tabs';
