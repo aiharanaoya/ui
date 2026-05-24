@@ -1,0 +1,41 @@
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.spinner {
+	border-radius: 50%;
+	border-style: solid;
+	border-color: var(--color-gray-200);
+	animation: spin 700ms linear infinite;
+	flex-shrink: 0;
+}
+
+/* Sizes */
+.sm {
+	width: 18px;
+	height: 18px;
+	border-width: 2px;
+}
+
+.md {
+	width: 28px;
+	height: 28px;
+	border-width: 3px;
+}
+
+.lg {
+	width: 38px;
+	height: 38px;
+	border-width: 4px;
+}
+
+/* Colors */
+.blue {
+	border-top-color: var(--color-blue-500);
+}
+
+.red {
+	border-top-color: var(--color-red-500);
+}
