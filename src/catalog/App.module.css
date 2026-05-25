@@ -1,0 +1,225 @@
+.layout {
+	max-width: 1440px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 240px 1fr;
+}
+
+.sidebar {
+	position: sticky;
+	top: 0;
+	height: 100vh;
+	overflow-y: auto;
+	border-right: 1px solid var(--color-gray-200);
+	padding: 32px 24px 32px 32px;
+	background: var(--color-white);
+	display: flex;
+	flex-direction: column;
+}
+
+.sidebarLogo {
+	display: flex;
+	align-items: baseline;
+	margin-bottom: 32px;
+	text-decoration: none;
+}
+
+.logoText {
+	font-family: var(--font-display);
+	font-weight: 700;
+	font-size: 22px;
+	letter-spacing: -0.01em;
+	color: var(--color-blue-500);
+	line-height: 1;
+}
+
+.logoDot {
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: var(--color-red-500);
+	margin-left: 3px;
+	margin-bottom: 4px;
+}
+
+.indexEyebrow {
+	font-family: var(--font-mono);
+	font-size: 10px;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: var(--color-gray-400);
+	margin-bottom: 14px;
+}
+
+.indexList {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.sidebarLink {
+	display: grid;
+	grid-template-columns: 28px 1fr;
+	align-items: baseline;
+	padding: 5px 0;
+	text-decoration: none;
+	color: var(--color-gray-600);
+	font-size: 13px;
+	font-weight: 500;
+	transition: color 150ms var(--ease-standard);
+}
+
+.sidebarLink span {
+	font-family: var(--font-mono);
+	font-size: 11px;
+	color: var(--color-gray-400);
+}
+
+.sidebarLink:hover {
+	color: var(--color-blue-500);
+}
+
+.sidebarLink:hover span {
+	color: var(--color-red-500);
+}
+
+.indexFoot {
+	margin-top: auto;
+	padding-top: 24px;
+	font-family: var(--font-mono);
+	font-size: 10px;
+	line-height: 1.7;
+	color: var(--color-gray-400);
+	letter-spacing: 0.02em;
+}
+
+.content {
+	min-width: 0;
+}
+
+.cover {
+	background: var(--color-blue-500);
+	color: var(--color-white);
+	padding: 64px 48px 56px;
+	position: relative;
+	overflow: hidden;
+	border-bottom: 8px solid var(--color-red-500);
+}
+
+.cover::after {
+	content: '';
+	position: absolute;
+	right: -120px;
+	top: -120px;
+	width: 480px;
+	height: 480px;
+	border-radius: 50%;
+	background: rgba(255, 255, 255, 0.06);
+	pointer-events: none;
+}
+
+.cover::before {
+	content: '';
+	position: absolute;
+	right: 80px;
+	bottom: -200px;
+	width: 360px;
+	height: 360px;
+	border-radius: 50%;
+	background: rgba(239, 62, 66, 0.18);
+	pointer-events: none;
+}
+
+.coverEyebrow {
+	font-family: var(--font-mono);
+	font-size: 11px;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.7);
+	margin-bottom: 24px;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	position: relative;
+	z-index: 1;
+}
+
+.coverEyebrow::after {
+	content: '';
+	flex: 1;
+	max-width: 80px;
+	height: 1px;
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.coverTitle {
+	font-family: var(--font-display);
+	font-weight: 800;
+	font-size: 120px;
+	line-height: 0.92;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	color: var(--color-white);
+	margin: 0 0 24px;
+	position: relative;
+	z-index: 1;
+}
+
+.coverAccent {
+	color: var(--color-red-400);
+}
+
+.coverSub {
+	font-family: var(--font-sans);
+	font-size: 18px;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.85);
+	max-width: 520px;
+	line-height: 1.5;
+	margin: 0;
+	position: relative;
+	z-index: 1;
+}
+
+.colophon {
+	padding: 32px 48px;
+	background: var(--color-blue-900);
+	border-top: 4px solid var(--color-red-500);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 24px;
+}
+
+.colophonMark {
+	font-family: var(--font-display);
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 1;
+	letter-spacing: -0.01em;
+	color: var(--color-white);
+	display: inline-flex;
+	align-items: baseline;
+	gap: 4px;
+}
+
+.colophonMark::after {
+	content: '';
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: var(--color-red-500);
+	align-self: flex-end;
+	margin-bottom: 3px;
+}
+
+.colophonMeta {
+	font-family: var(--font-mono);
+	font-size: 10px;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: rgba(255, 255, 255, 0.55);
+}

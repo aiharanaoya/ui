@@ -1,0 +1,132 @@
+.section {
+	padding: 64px 48px;
+	border-bottom: 1px solid var(--color-gray-200);
+}
+.sectionHead {
+	display: grid;
+	grid-template-columns: 80px 1fr;
+	align-items: end;
+	gap: 24px;
+	margin-bottom: 40px;
+	padding-bottom: 16px;
+	border-bottom: 2px solid var(--color-gray-900);
+}
+.sectionNum {
+	font-family: var(--font-display);
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 0.9;
+	color: var(--color-blue-500);
+	letter-spacing: -0.02em;
+}
+.sectionTitle {
+	font-family: var(--font-display);
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: -0.01em;
+	color: var(--color-gray-900);
+	margin: 0;
+}
+
+.typeSpec {
+	display: grid;
+	grid-template-columns: 140px 1fr 200px;
+	gap: 24px;
+	align-items: baseline;
+	padding: 18px 0;
+	border-top: 1px solid var(--color-gray-200);
+}
+.typeSpec:first-of-type {
+	border-top: none;
+}
+.typeMeta {
+	font-family: var(--font-mono);
+	font-size: 10px;
+	letter-spacing: 0.08em;
+	color: var(--color-gray-400);
+	text-transform: uppercase;
+	line-height: 1.6;
+}
+.typeMeta strong {
+	color: var(--color-gray-900);
+	font-weight: 700;
+}
+.typeInfo {
+	font-family: var(--font-mono);
+	font-size: 10px;
+	color: var(--color-gray-400);
+	text-align: right;
+	letter-spacing: 0.04em;
+}
+.typeSample {
+	color: var(--color-gray-900);
+	line-height: 1;
+}
+.tsDisplayXl {
+	font-family: var(--font-display);
+	font-size: 96px;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: -0.02em;
+	line-height: 0.92;
+}
+.tsDisplayLg {
+	font-family: var(--font-display);
+	font-size: 64px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: -0.01em;
+	line-height: 1;
+}
+.tsDisplayMd {
+	font-family: var(--font-display);
+	font-size: 44px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 1;
+}
+.tsH1 {
+	font-family: var(--font-sans);
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.15;
+	letter-spacing: -0.01em;
+}
+.tsH2 {
+	font-family: var(--font-sans);
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 1.2;
+}
+.tsBodyLg {
+	font-family: var(--font-body);
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.5;
+}
+.tsBody {
+	font-family: var(--font-body);
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.6;
+	max-width: 540px;
+}
+.tsLabel {
+	font-family: var(--font-body);
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: var(--color-gray-400);
+}
+.tsMono {
+	font-family: var(--font-mono);
+	font-size: 13px;
+	color: var(--color-blue-700);
+	background: var(--color-gray-100);
+	padding: 4px 8px;
+	border-radius: var(--radius-sm);
+	display: inline-block;
+}
