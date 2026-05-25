@@ -52,7 +52,7 @@
 	flex: 1;
 	height: 2px;
 	margin: 0 4px;
-	margin-top: -18px;
+	margin-top: -9px;
 	transition: background var(--duration-normal) var(--ease-standard);
 }
 
@@ -83,7 +83,11 @@
 }
 
 .active .line {
-	background: var(--color-gray-200);
+	background: linear-gradient(
+		90deg,
+		var(--color-blue-500),
+		var(--color-gray-200)
+	);
 }
 
 /* Todo */

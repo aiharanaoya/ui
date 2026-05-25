@@ -1,0 +1,147 @@
+.section {
+	padding: 64px 48px;
+	border-bottom: 1px solid var(--color-gray-200);
+}
+.sectionHead {
+	display: grid;
+	grid-template-columns: 80px 1fr;
+	align-items: end;
+	gap: 24px;
+	margin-bottom: 40px;
+	padding-bottom: 16px;
+	border-bottom: 2px solid var(--color-gray-900);
+}
+.sectionNum {
+	font-family: var(--font-display);
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 0.9;
+	color: var(--color-blue-500);
+	letter-spacing: -0.02em;
+}
+.sectionTitle {
+	font-family: var(--font-display);
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: -0.01em;
+	color: var(--color-gray-900);
+	margin: 0;
+}
+.subsection {
+	margin-top: 48px;
+}
+.subsectionLabel {
+	font-family: var(--font-mono);
+	font-size: 10px;
+	font-weight: 600;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: var(--color-gray-400);
+	margin: 0 0 14px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.subsectionLabel::before {
+	content: '';
+	width: 6px;
+	height: 6px;
+	background: var(--color-red-500);
+	display: inline-block;
+	flex-shrink: 0;
+}
+
+.colorScales {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+.scale {
+	display: grid;
+	grid-template-columns: 108px 1fr;
+	gap: 20px;
+	align-items: start;
+	min-width: 0;
+}
+.scaleHead {
+	font-family: var(--font-display);
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: var(--color-gray-900);
+	padding-top: 12px;
+}
+.scaleHead small {
+	display: block;
+	font-family: var(--font-mono);
+	font-size: 10px;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	color: var(--color-gray-400);
+	text-transform: uppercase;
+	margin-top: 4px;
+}
+.swatches {
+	display: grid;
+	grid-template-columns: repeat(10, minmax(0, 1fr));
+	gap: 4px;
+	min-width: 0;
+}
+.swatch {
+	display: flex;
+	flex-direction: column;
+	height: 96px;
+	padding: 8px;
+	border-radius: var(--radius-sm);
+	justify-content: space-between;
+	font-family: var(--font-mono);
+	font-size: 9px;
+	font-weight: 500;
+	letter-spacing: 0.02em;
+	overflow: hidden;
+	min-width: 0;
+}
+.swatchStep {
+	font-weight: 700;
+	letter-spacing: 0.04em;
+}
+.swatchHex {
+	opacity: 0.75;
+	font-size: 9px;
+}
+.swatchDark {
+	color: var(--color-white);
+}
+.swatchLight {
+	color: var(--color-gray-900);
+}
+.swatchBordered {
+	border: 1px solid var(--color-gray-200);
+}
+
+.semanticGrid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 12px;
+}
+.semTile {
+	border-radius: var(--radius-md);
+	padding: 18px 16px;
+	color: var(--color-white);
+	min-height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.semRole {
+	font-size: 13px;
+	font-weight: 600;
+}
+.semName {
+	font-family: var(--font-mono);
+	font-size: 10px;
+	opacity: 0.75;
+	letter-spacing: 0.04em;
+}

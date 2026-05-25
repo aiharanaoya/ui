@@ -8,6 +8,8 @@
 	border-radius: var(--radius-lg);
 	padding: var(--space-8) var(--space-6);
 	box-shadow: var(--shadow-sm);
+	height: 100%;
+	box-sizing: border-box;
 }
 
 .icon {

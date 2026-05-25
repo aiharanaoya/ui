@@ -1,0 +1,128 @@
+.section {
+	padding: 64px 48px;
+	border-bottom: 1px solid var(--color-gray-200);
+}
+.sectionHead {
+	display: grid;
+	grid-template-columns: 80px 1fr;
+	align-items: end;
+	gap: 24px;
+	margin-bottom: 40px;
+	padding-bottom: 16px;
+	border-bottom: 2px solid var(--color-gray-900);
+}
+.sectionNum {
+	font-family: var(--font-display);
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 0.9;
+	color: var(--color-blue-500);
+	letter-spacing: -0.02em;
+}
+.sectionTitle {
+	font-family: var(--font-display);
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: -0.01em;
+	color: var(--color-gray-900);
+	margin: 0;
+}
+.subsection {
+	margin-top: 48px;
+}
+.subsectionLabel {
+	font-family: var(--font-mono);
+	font-size: 10px;
+	font-weight: 600;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: var(--color-gray-400);
+	margin: 0 0 14px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.subsectionLabel::before {
+	content: '';
+	width: 6px;
+	height: 6px;
+	background: var(--color-red-500);
+	display: inline-block;
+	flex-shrink: 0;
+}
+.col {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.navbar {
+	background: var(--color-blue-500);
+	height: 56px;
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+	gap: 4px;
+	border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
+.navLogo {
+	display: flex;
+	align-items: baseline;
+	margin-right: 16px;
+}
+.navLogoText {
+	font-family: var(--font-display);
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: -0.01em;
+	color: var(--color-white);
+	line-height: 1;
+}
+.navLogoDot {
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: var(--color-red-500);
+	margin-left: 3px;
+	margin-bottom: 4px;
+}
+.navItem {
+	font-size: 13px;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 0.75);
+	padding: 7px 12px;
+	border-radius: 6px;
+	cursor: pointer;
+}
+.navItemActive {
+	background: rgba(255, 255, 255, 0.18);
+	color: var(--color-white);
+}
+.navSpacer {
+	flex: 1;
+}
+.navBtn {
+	background: var(--color-red-500);
+	color: var(--color-white);
+	font-size: 12px;
+	font-weight: 600;
+	padding: 7px 14px;
+	border-radius: 6px;
+	border: none;
+	cursor: pointer;
+	font-family: var(--font-sans);
+}
+
+.tabsWrap {
+	border: 1px solid var(--color-gray-200);
+	border-top: none;
+	border-radius: 0 0 var(--radius-md) var(--radius-md);
+	background: var(--color-white);
+}
+.tabContent {
+	padding: 16px;
+	font-size: 13px;
+	color: var(--color-gray-600);
+}
