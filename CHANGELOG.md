@@ -1,5 +1,11 @@
 # @aiharanaoya/ui
 
+## 0.2.1
+
+### Patch Changes
+
+- EmptyState コンポーネントの高さを修正し、Steps のライン位置を調整
+
 ## 0.2.0
 
 ### Minor Changes
