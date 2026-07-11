@@ -27,8 +27,8 @@ importers:
         specifier: 14.6.1
         version: 14.6.1(@testing-library/dom@10.4.1)
       '@tsdown/css':
-        specifier: 0.22.3
-        version: 0.22.3(postcss@8.5.16)(tsdown@0.22.3)
+        specifier: 0.22.4
+        version: 0.22.4(postcss@8.5.16)(tsdown@0.22.3)
       '@types/react':
         specifier: 19.2.17
         version: 19.2.17
@@ -52,7 +52,7 @@ importers:
         version: 10.4.6(@testing-library/dom@10.4.1)(@types/react@19.2.17)(prettier@2.8.8)(react@19.2.7)
       tsdown:
         specifier: 0.22.3
-        version: 0.22.3(@tsdown/css@0.22.3)(oxc-resolver@11.23.0)(typescript@6.0.3)
+        version: 0.22.3(@tsdown/css@0.22.4)(oxc-resolver@11.23.0)(typescript@6.0.3)
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -953,8 +953,8 @@ packages:
     peerDependencies:
       '@testing-library/dom': '>=7.21.4'
 
-  '@tsdown/css@0.22.3':
-    resolution: {integrity: sha512-kmb/31lcI/Pk26WeWJxQDLy8qkvoyfBkw3n9aN6bflKkoeLqnV2BRbndzfPRJY+Ziahi796gfgDVc+ftLIgWVw==}
+  '@tsdown/css@0.22.4':
+    resolution: {integrity: sha512-bgmMvsDuTeRz5L7owzmU1o2AB66wTvfmH1MdCnWfwqRG25MejOHsGohyp6wy2TBmFiUV7mf9m9uq6JP5x9MBmw==}
     engines: {node: ^22.18.0 || >=24.11.0}
     peerDependencies:
       postcss: ^8.4.0
@@ -962,7 +962,7 @@ packages:
       postcss-modules: ^6.0.0
       sass: '*'
       sass-embedded: '*'
-      tsdown: 0.22.3
+      tsdown: 0.22.4
     peerDependenciesMeta:
       postcss:
         optional: true
@@ -2942,12 +2942,12 @@ snapshots:
     dependencies:
       '@testing-library/dom': 10.4.1
 
-  '@tsdown/css@0.22.3(postcss@8.5.16)(tsdown@0.22.3)':
+  '@tsdown/css@0.22.4(postcss@8.5.16)(tsdown@0.22.3)':
     dependencies:
       lightningcss: 1.32.0
       postcss-load-config: 6.0.1(postcss@8.5.16)
       rolldown: 1.1.4
-      tsdown: 0.22.3(@tsdown/css@0.22.3)(oxc-resolver@11.23.0)(typescript@6.0.3)
+      tsdown: 0.22.3(@tsdown/css@0.22.4)(oxc-resolver@11.23.0)(typescript@6.0.3)
     optionalDependencies:
       postcss: 8.5.16
     transitivePeerDependencies:
@@ -3873,7 +3873,7 @@ snapshots:
       minimist: 1.2.8
       strip-bom: 3.0.0
 
-  tsdown@0.22.3(@tsdown/css@0.22.3)(oxc-resolver@11.23.0)(typescript@6.0.3):
+  tsdown@0.22.3(@tsdown/css@0.22.4)(oxc-resolver@11.23.0)(typescript@6.0.3):
     dependencies:
       ansis: 4.3.1
       cac: 7.0.0
@@ -3891,7 +3891,7 @@ snapshots:
       tree-kill: 1.2.2
       unconfig-core: 7.5.0
     optionalDependencies:
-      '@tsdown/css': 0.22.3(postcss@8.5.16)(tsdown@0.22.3)
+      '@tsdown/css': 0.22.4(postcss@8.5.16)(tsdown@0.22.3)
       typescript: 6.0.3
     transitivePeerDependencies:
       - '@ts-macro/tsc'
