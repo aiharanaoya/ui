@@ -46,7 +46,7 @@
 		"react": "19.2.8",
 		"react-dom": "19.2.8",
 		"storybook": "10.5.3",
-		"tsdown": "0.22.13",
+		"tsdown": "0.22.14",
 		"typescript": "7.0.2",
 		"vite": "8.1.5",
 		"vitest": "4.1.10"
