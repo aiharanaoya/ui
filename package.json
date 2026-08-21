@@ -32,7 +32,7 @@
 		"react-dom": "^19"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.5.8",
+		"@biomejs/biome": "2.5.9",
 		"@changesets/cli": "3.0.0",
 		"@storybook/react-vite": "10.5.8",
 		"@testing-library/jest-dom": "7.0.1",
