@@ -3,7 +3,7 @@
 	"version": "0.2.1",
 	"type": "module",
 	"license": "MIT",
-	"packageManager": "pnpm@12.9.1",
+	"packageManager": "pnpm@12.10.1",
 	"exports": {
 		".": {
 			"import": "./dist/index.mjs",
