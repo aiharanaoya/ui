@@ -34,7 +34,7 @@
 	"devDependencies": {
 		"@biomejs/biome": "2.5.15",
 		"@changesets/cli": "3.0.3",
-		"@storybook/react-vite": "10.6.2",
+		"@storybook/react-vite": "10.6.3",
 		"@testing-library/jest-dom": "7.0.1",
 		"@testing-library/react": "16.3.3",
 		"@testing-library/user-event": "14.6.8",
@@ -45,7 +45,7 @@
 		"happy-dom": "20.14.6",
 		"react": "19.3.1",
 		"react-dom": "19.3.1",
-		"storybook": "10.6.2",
+		"storybook": "10.6.3",
 		"tsdown": "0.22.14",
 		"typescript": "7.0.2",
 		"vite": "8.3.4",
